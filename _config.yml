@@ -4,7 +4,7 @@
 
 # Site
 title: 风卷残云
-subtitle: ''
+subtitle: '专注物联网无线通信方向'
 description: 'Time is precious!'
 keywords:
 author: JuanYun
@@ -71,6 +71,19 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+
+#Menu
+menu:
+  home: / || home
+  categories: /categories/ || th
+  archives: /archives/ || archive
+  tags: /tags/ || tags
+  about: /about/ || user
+
+menu_settings:
+  icons: true
+  badges: false #设置为true会显示具体的数值
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
@@ -99,8 +112,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
+scheme: Pisces
 # Deployment
+#
+auto_excerpt:
+    enable:true
+    length:150
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
