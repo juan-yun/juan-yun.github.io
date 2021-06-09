@@ -185,7 +185,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-06-09 20:17:25 / Modified: 21:34:31" itemprop="dateCreated datePublished" datetime="2021-06-09T20:17:25+08:00">2021-06-09</time>
+              <time title="Created: 2021-06-09 20:17:25 / Modified: 21:55:20" itemprop="dateCreated datePublished" datetime="2021-06-09T20:17:25+08:00">2021-06-09</time>
             </span>
 
           
@@ -199,13 +199,23 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
+          <h1 id="基本Pipeline"><a href="#基本Pipeline" class="headerlink" title="基本Pipeline"></a>基本Pipeline</h1><p>   Based on the <a target="_blank" rel="noopener" href="https://web.stanford.edu/class/ee368/Project_Spring_1415/Reports/Cheshire_Halasz_Perin.pdf">Player Tracking and Analysis of Basketball Plays</a> paper, the following machine learning models need to be created.</p>
+<p><a target="_blank" rel="noopener" href="https://res.cloudinary.com/practicaldev/image/fetch/s--fLvYOi3h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://user-images.githubusercontent.com/179457/70849391-f34ee280-1e7d-11ea-8044-db5b78b07ba9.png"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--fLvYOi3h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://user-images.githubusercontent.com/179457/70849391-f34ee280-1e7d-11ea-8044-db5b78b07ba9.png" alt="Models"></a></p>
+<ol>
+<li>Court Detection - find lines of the court</li>
+<li>Person Detection - detect individuals ✅</li>
+<li>Player Detection and Color Classification - players detection standing on the court and separate these individuals into two teams</li>
+<li> Player Tracking - Keep positions information frame by frame</li>
+<li> Mapping via Homography - translate onto a court</li>
+</ol>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
 <li><a target="_blank" rel="noopener" href="https://simplifaster.com/articles/video-analysis-sports-performance/">Video - How to Use Video Analysis to Improve Sports Performance</a></li>
 <li><a target="_blank" rel="noopener" href="https://deepai.org/publication/footandball-integrated-player-and-ball-detector">Thesis - FootAndBall: Integrated player and ball detector</a></li>
 <li><a target="_blank" rel="noopener" href="https://github.com/jac99/FootAndBall">Code - FootAndBall</a></li>
 <li><a target="_blank" rel="noopener" href="https://deepai.org/publication/deepball-deep-neural-network-ball-detector">Thesis - DeepBall: Deep Neural-Network Ball Detector</a></li>
 <li><a target="_blank" rel="noopener" href="https://cvgl.stanford.edu/projects/MDP_tracking/">Code - MDP_tracking</a></li>
 <li><a target="_blank" rel="noopener" href="https://dev.to/stephan007/open-source-sports-video-analysis-using-maching-learning-2ag4">Article - Open Source Sports Video Analysis using Maching Learning</a></li>
+<li><a target="_blank" rel="noopener" href="https://openaccess.thecvf.com/content_ICCV_2017/papers/Sadeghian_Tracking_the_Untrackable_ICCV_2017_paper.pdf">Thesis - Tracking The Untrackable: Learning to Track Multiple Cues with Long-Term Dependencies</a></li>
 </ul>
 
       
