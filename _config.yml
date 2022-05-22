@@ -121,6 +121,7 @@ auto_excerpt:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/juan-yun/juan-yun.github.io
+  repo: git@github.com:juan-yun/juan-yun.github.io.git
+  #repo: https://github.com/juan-yun/juan-yun.github.io
   branch: master
   
